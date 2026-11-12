@@ -97,6 +97,7 @@ Dependabot security updates target the default branch; the repository's sync wor
 - Every repository runs its formatter, linter and tests in CI; the commands are in **This repository**. Run them locally before pushing.
 - Do not disable a lint rule or skip a test to make CI pass; fix the cause or explain the exception in the PR.
 - Configuration values (limits, timeouts, origins, URLs) live in the repository's configuration module or file, not scattered in the code.
+- **No comments in code.** Names, types, small functions and tests carry the meaning; explanations of why a change was made go in the commit message and the pull request, and design or operational documentation goes in the repository documentation or Notion. Only machine-read directives are allowed (`# noqa`, `# type: ignore`, `// eslint-disable-next-line`, shebangs, encoding or license headers required by a tool), each with the narrowest scope possible.
 
 ## 7. Security
 
