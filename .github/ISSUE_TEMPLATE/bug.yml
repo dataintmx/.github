@@ -1,0 +1,52 @@
+name: "🐛 Bug report"
+description: Something is broken or behaves unexpectedly.
+title: "[BUG]: "
+labels: ["Type: Bug", "Status: Unresolved", "Priority: Medium"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Production
+        - Development
+        - Local
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, traces or screenshots
+      description: Error messages, trace IDs or Grafana links. Remove any secrets or personal data.
+      render: text
+    validations:
+      required: false
+  - type: input
+    id: notion
+    attributes:
+      label: Notion task
+      description: Link to the Notion task, if any.
+    validations:
+      required: false

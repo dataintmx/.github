@@ -1,0 +1,41 @@
+name: "🚀 Feature request"
+description: A new feature or an improvement to an existing one.
+title: "[FEATURE]: "
+labels: ["Type: Enhancement", "Status: Waiting for Approval", "Priority: Medium"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What is missing or wrong today, and for whom.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected outcome
+      description: Observable behavior once this is done.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed technical approach
+    validations:
+      required: false
+  - type: input
+    id: notion
+    attributes:
+      label: Notion task
+      description: Link to the Notion task this issue implements.
+    validations:
+      required: false
