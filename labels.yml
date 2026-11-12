@@ -1,0 +1,19 @@
+- { name: "Type: Bug", color: "B60205", description: "Something is broken or behaves unexpectedly" }
+- { name: "Type: Enhancement", color: "006B75", description: "New feature or improvement" }
+- { name: "Type: Design", color: "006B75", description: "Visual or UX request" }
+- { name: "Type: Documentation", color: "006B75", description: "Documentation work" }
+- { name: "Type: Maintenance", color: "FBCA04", description: "Keep the code and repository clean and up to date" }
+- { name: "Type: Deployment", color: "006B75", description: "CI/CD and deployment work" }
+- { name: "Type: Security", color: "B60205", description: "Security fix or hardening" }
+- { name: "Type: Release", color: "C2E0C6", description: "Release to production" }
+- { name: "Type: Revert", color: "F9D0C4", description: "Reverts a previous change" }
+- { name: "Type: Dependabot", color: "763AB5", description: "Created automatically by Dependabot" }
+- { name: "Status: Unresolved", color: "BFD4F2", description: "Work to be done" }
+- { name: "Status: In Progress", color: "0052CC", description: "Work in progress" }
+- { name: "Status: Waiting for Approval", color: "FEF2C0", description: "Needs review or approval" }
+- { name: "Status: Waiting for Changes", color: "FEF2C0", description: "Reviewed; changes requested" }
+- { name: "Status: Resolved", color: "0E8A16", description: "Work done" }
+- { name: "Status: Won't fix", color: "B60205", description: "Will not be done" }
+- { name: "Priority: Low", color: "C5DEF5", description: "Low priority" }
+- { name: "Priority: Medium", color: "FAEBC8", description: "Medium priority" }
+- { name: "Priority: High", color: "F9D0C4", description: "Urgent" }
